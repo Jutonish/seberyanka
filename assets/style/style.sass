@@ -10,7 +10,7 @@
   .dropdown
     position: relative
     display: inline-block
-    &__btn 
+    &__btn
       border-radius: 4px
       color: #fff
       border: none
@@ -76,7 +76,7 @@
     &__name
       margin-right: 10px
     &__dropdown
-      &-btn 
+      &-btn
         border-radius: 4px
         background: #fff
         border: none
@@ -170,49 +170,49 @@
     padding: 0 0 120px 116px
     display: flex
   .card
-    width: 272px 
-    min-height: 350px 
+    width: 272px
+    min-height: 350px
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1)
     background: #fff
-    display: flex 
-    flex-direction: column 
-    border-radius: 4px 
-    transition: 0.2s 
+    display: flex
+    flex-direction: column
+    border-radius: 4px
+    transition: 0.2s
     position: relative
     margin-right: 40px
     &:nth-child(4)
       margin-right: 0
-    &:hover 
-      box-shadow: 4px 8px 16px rgba(255, 102, 51, 0.2) 
-    &__top 
-      flex: 0 0 220px 
-      position: relative 
-      overflow: hidden 
-    &__image 
-      display: block 
-      position: absolute 
-      top: 0 
-      left: 0 
-      width: 100% 
-      height: 100% 
-      & img 
-        width: 100% 
-        height: 100% 
-        object-fit: contain 
-        transition: 0.2s 
-      &:hover 
-        & img 
-          transform: scale(1.1) 
-    &__label 
-      padding: 4px 8px 
-      position: absolute 
-      bottom: 50px 
-      left: 10px 
-      background: #ff6633 
-      border-radius: 4px 
-      font-weight: 400 
-      font-size: 16px 
-      color: #fff 
+    &:hover
+      box-shadow: 4px 8px 16px rgba(255, 102, 51, 0.2)
+    &__top
+      flex: 0 0 220px
+      position: relative
+      overflow: hidden
+    &__image
+      display: block
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      & img
+        width: 100%
+        height: 100%
+        object-fit: contain
+        transition: 0.2s
+      &:hover
+        & img
+          transform: scale(1.1)
+    &__label
+      padding: 4px 8px
+      position: absolute
+      bottom: 50px
+      left: 10px
+      background: #ff6633
+      border-radius: 4px
+      font-weight: 400
+      font-size: 16px
+      color: #fff
     &__img
       display: flex
       align-items: center
@@ -228,59 +228,59 @@
       &:hover
         background: #ff6633
         opacity: 0.8
-    &__bottom 
-      display: flex 
-      flex-direction: column 
-      flex: 1 0 auto 
-      padding: 10px 
-    &__prices 
-      display: flex 
-      margin-bottom: 10px 
+    &__bottom
+      display: flex
+      flex-direction: column
+      flex: 1 0 auto
+      padding: 10px
+    &__prices
+      display: flex
+      margin-bottom: 10px
       justify-content: space-between
-    &__price 
-      &::after 
-        content: "₽" 
-        margin-left: 4px 
-        position: relative 
+    &__price
+      &::after
+        content: "₽"
+        margin-left: 4px
+        position: relative
       &--discounts
-        font-weight: 700 
-        font-size: 19px 
-        color: #414141 
+        font-weight: 700
+        font-size: 19px
+        color: #414141
         display: flex
-    &__price--discount 
-      font-weight: 700 
-      font-size: 19px 
-      color: #414141 
-      display: flex 
+    &__price--discount
+      font-weight: 700
+      font-size: 19px
+      color: #414141
+      display: flex
       flex-direction: column
       &::after
-        content: "С картой" 
-        font-weight: 400 
-        font-size: 13px 
-        color: #bfbfbf 
-    &__price--common 
-      font-weight: 400 
-      font-size: 17px 
-      color: #606060 
-      display: flex 
+        content: "С картой"
+        font-weight: 400
+        font-size: 13px
+        color: #bfbfbf
+    &__price--common
+      font-weight: 400
+      font-size: 17px
+      color: #606060
+      display: flex
       flex-direction: column
       &::after
-        content: "Обычная" 
-        font-weight: 400 
-        font-size: 13px 
-        color: #bfbfbf 
-    &__title 
-      display: block 
-      margin-bottom: 10px 
-      font-weight: 400 
-      font-size: 16px 
-      line-height: 150% 
-      color: #414141 
+        content: "Обычная"
+        font-weight: 400
+        font-size: 13px
+        color: #bfbfbf
+    &__title
+      display: block
+      margin-bottom: 10px
+      font-weight: 400
+      font-size: 16px
+      line-height: 150%
+      color: #414141
       &-mob
         display: none
-        margin-bottom: 8px  
-      &:hover 
-        color: #ff6633 
+        margin-bottom: 8px
+      &:hover
+        color: #ff6633
     &__star
       display: flex
       margin-bottom: 8px
@@ -288,24 +288,24 @@
         margin-right: 4px
         &:nth-child(5)
           margin-right: 0
-    &__add 
-      display: block 
-      width: 100% 
-      font-weight: 400 
-      font-size: 17px 
+    &__add
+      display: block
+      width: 100%
+      font-weight: 400
+      font-size: 17px
       background: #fff
-      color: #70c05b 
-      padding: 10px 
-      text-align: center 
-      border: 1px solid #70c05b 
-      border-radius: 4px 
-      cursor: pointer 
-      transition: 0.2s 
-      margin-top: auto 
-      &:hover 
-        border: 1px solid #ff6633 
-        background-color: #ff6633 
-        color: #fff 
+      color: #70c05b
+      padding: 10px
+      text-align: center
+      border: 1px solid #70c05b
+      border-radius: 4px
+      cursor: pointer
+      transition: 0.2s
+      margin-top: auto
+      &:hover
+        border: 1px solid #ff6633
+        background-color: #ff6633
+        color: #fff
 
 @media screen and (max-width: 768px)
   .stock, .new-items, .bought-before
@@ -466,7 +466,7 @@
         margin-right: 0
   &__map-mob
     display: none
-  
+
 @media screen and (max-width: 768px)
   .our-shops
     padding: 104px 10px 0 10px
@@ -646,3 +646,5 @@
           margin-right: 10px
     &__soc
       margin-bottom: 20px
+.test
+  cursor: pointer
