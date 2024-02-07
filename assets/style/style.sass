@@ -14,6 +14,9 @@
       border-radius: 4px
       color: #fff
       border: none
+      cursor: pointer
+      &:hover
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.10)
       &-text
         padding-left: 15px
         color: #fff
@@ -55,22 +58,31 @@
       border-bottom: 1px solid #70C05B
       border-left: 0
       padding: 7px
+      cursor: pointer
+      &:hover
+        background: #cbcbcb
   .nav
     display: flex
     align-items: center
     &__item
       margin-right: 24px
-      padding-bottom: 16px
+      margin-bottom: 16px
+      //padding-bottom: 16px
       height: 65px
       display: flex
       flex-direction: column
       align-items: center
       justify-content: end
+      cursor: pointer
+      border-bottom: 2px solid transparent
+      &:hover
+        border-bottom: 2px solid #707070
       &-img
         margin-bottom: 8px
   .profile
     display: flex
     align-items: center
+    cursor: pointer
     &__img
       margin-right: 10px
     &__name
@@ -141,6 +153,7 @@
   &-mob
     display: none
 
+@media screen and (max-width: 320px)
 @media screen and (max-width: 768px)
   .banner
     max-width: 768px
@@ -150,7 +163,6 @@
     &-mob
       display: block
 
-@media screen and (max-width: 320px)
   .banner
     display: none
 
@@ -366,7 +378,6 @@
     height: 200px
     display: flex
     align-items: center
-    display: flex
     justify-content: end
     border-radius: 5px
     &:hover
